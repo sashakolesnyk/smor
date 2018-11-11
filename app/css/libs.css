@@ -1,0 +1,3 @@
+@charset "UTF-8";
+/*сюда подключаем стили библиотек - для минификации в 1 файл*/
+@import url(libs/magnific-popup/dist/magnific-popup.css);

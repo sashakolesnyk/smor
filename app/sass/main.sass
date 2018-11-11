@@ -1,0 +1,263 @@
+*
+ margin: 0
+ padding: 0
+ outline: none
+
+body, html
+ width: 100%
+ height: 100%
+ font-family: 'Brandon Grotesque', sans-serif
+ color: #fff
+ overflow-x: hidden
+
+body
+ background-color: #000
+
+/* Шапка */
+header
+ width: 100vw
+ height: 100vh
+ background-image: url(../img/header_fon_1.jpg)
+ background-blend-mode: multiply
+ background-size: cover
+ background-color: rgba(0, 0, 0, .35)
+ text-align: center
+ display: flex
+ justify-content: center
+ align-items: center
+
+header p
+ font-weight: light /*light=300*/
+ font-size: 32px
+ letter-spacing: -0.025
+ margin-bottom: 50px
+
+header h1
+ font-weight: bold
+ font-size: 66px
+ letter-spacing: -0.025
+ text-transform: uppercase
+ margin-bottom: 100px
+
+header a
+ text-decoration: none
+ font-weight: bold
+ font-size: 23px
+ border: 2px solid white
+ border-radius: 4px
+ padding: 20px 65px
+ color: #fff
+
+/* Центральный блок */
+main
+ min-height: 800px
+
+main .content-wrapper
+ max-width: 940px
+ text-align: center
+ padding: 100px 70px
+ margin: 0 auto
+
+main h2
+ font-size: 60px
+ font-weight: 300
+ letter-spacing: -0.025
+
+main h2 span
+ font-weight: bold
+
+main .up-side
+ font-size: 22px
+ letter-spacing: -0.025
+ color: #777
+ margin-bottom: 70px
+
+.team-wrapper
+ display: flex
+ justify-content: space-between
+ align-items: center
+ flex-wrap: wrap
+ margin-bottom: 50px
+
+.worker
+ margin: 0 auto
+
+.worker__image
+ border: 7px solid white
+ height: 234px
+ width: 234px
+ border-radius: 50%
+
+.worker__name
+ font-weight: bold
+ font-size: 18px
+ letter-spacing: -0.025
+ line-height: 50px
+
+.worker__position
+ font-size: 16px
+ letter-spacing: -0.025
+ color: #ebebeb
+ margin-bottom: 10px
+
+.worker__social img
+ width: 30px
+ height: 30px
+ margin-left: 8px
+
+.soc
+ border: 2px solid white
+ background-color: none
+ border-radius: 50%
+ width: 40px
+ height: 40px
+ display: inline-block
+ margin-left: 8px
+ transition: all 0.5s ease
+
+ svg
+  width: 60%
+  height: 60%
+
+/* Наведення мишкою*/
+.twt:hover
+ border: 2px solid #00aced
+ background-color: #00aced
+.fsb:hover
+ border: 2px solid #3b5998
+ background-color: #3b5998
+.ptrst:hover
+ border: 2px solid #cb2028
+ background-color: #cb2028
+.ggl-plus:hover
+ border: 2px solid #d95232
+ background-color: #d95232
+
+main .down-side
+ font-size: 20px
+ letter-spacing: -0.025
+ color: #ebebeb
+ line-height: 35px
+ margin: 0 100px
+
+/* Подвал */
+footer
+ width: 100%
+ background-color: #7690c5
+ min-height: 640px
+ padding-bottom: 30px
+ text-align: center
+
+footer .content-wrapper
+ max-width: 940px
+ text-align: center
+ padding: 100px 0 100px 0
+ margin: 0 auto
+ border-bottom: 1px solid #87a0d2
+ display: flex
+ justify-content: space-between
+ flex-wrap: wrap
+
+.contacts
+ max-width: 430px
+ margin: 0 auto
+
+.contacts h2
+ font-size: 60px
+ font-weight: 300
+ letter-spacing: -0.025
+ text-align: left
+
+.contacts h2 span
+ font-weight: bold
+
+.contacts p
+ text-align: left
+ margin-bottom: 50px
+
+.contacts img
+ height: 20px
+ width: 20px
+ display: inline-block
+
+.social-references
+ display: flex
+ flex-wrap: wrap
+ align-content: center
+ justify-content: center
+ 
+
+.social-references .first-row
+ width: 50%
+ 
+.social-references .second-row
+ width: 50%
+ 
+
+.social-references div
+ margin-bottom: 30px
+ //float: left
+ flex-grow: 1
+ text-align: left;
+
+.social-references p
+ display: inline
+ margin-left: 10px
+ font-size: 18px
+
+/* Форма */
+.form
+ max-width: 470px
+ margin: 0 auto
+
+form input
+ width: 455px
+ height: 50px
+ border-radius: 5px
+ margin-bottom: 25px
+ padding-left: 20px
+
+form input::placeholder
+ color: #bbb
+ font-size: 18px
+ font-weight: 500
+ letter-spacing: -0.025
+
+textarea
+ width: 455px
+ height: 210px
+ border-radius: 5px
+ margin-bottom: 25px
+ padding-left: 20px
+ padding-top: 20px
+ resize: none
+
+textarea::placeholder
+ color: #bbb
+ font-size: 20px
+ font-weight: 500
+ letter-spacing: -0.025
+
+svg
+ width: 15%
+ height: 15%
+ position: relative
+ top: 10px
+
+footer p
+ font-size: 18px
+ letter-spacing: -0.025
+ margin: 30px auto 0 auto
+
+.mod-window
+ border: 5px solid white
+ width: 50vw
+ height: 50vh
+ margin: 0 auto
+ display: flex
+ justify-content: center
+ align-items: center
+
+ a
+  color: #fff
+  font-size: 36px
